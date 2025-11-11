@@ -1,0 +1,8 @@
+html:not(#ncr-force-override),
+html:not(#ncr-force-override)::before,
+html:not(#ncr-force-override)::after,
+html:not(#ncr-force-override) :not(#ncr-force-override):not(#ncr-force-override):not(#ncr-force-override),
+html:not(#ncr-force-override) :not(#ncr-force-override):not(#ncr-force-override):not(#ncr-force-override)::before,
+html:not(#ncr-force-override) :not(#ncr-force-override):not(#ncr-force-override):not(#ncr-force-override)::after {
+  border-radius: 0 !important;
+}
